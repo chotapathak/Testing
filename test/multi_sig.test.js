@@ -20,7 +20,7 @@ contract('Multi_sig', () => {
       const multi_sig = await Multisig.deployed();
       console.log(multi_sig.address)
       assert(multi_sig.address !== undefined);
-      // expect(multi_sig).to.be.equal("Owner added successfully !")
+      expect(multi_sig).to.be.equal("Owner added successfully !")
   })
     
     
